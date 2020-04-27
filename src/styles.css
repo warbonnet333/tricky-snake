@@ -1,0 +1,27 @@
+html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: linear-gradient(to right, #FFE53B, #FF2525);
+}
+
+.container {
+    text-align: center;
+}
+
+.title {
+    font-family: 'Sigmar One', cursive;
+    line-height: 1;
+}
+
+.score_cont {
+    margin: 0 auto 10px;
+    width: 100px;
+    text-align: center;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-around;
+}
